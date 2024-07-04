@@ -43,6 +43,6 @@ server.on("listening", () => {
 
 const port = process.env.PORT ?? 12345;
 server.listen(port, () => {
-  console.log("listening on http://localhost:12345/");
+  console.log(`"listening on http://localhost:${port}/`);
 });
 console.log("run server.js");
